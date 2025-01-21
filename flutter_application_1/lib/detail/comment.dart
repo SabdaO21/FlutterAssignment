@@ -5,7 +5,7 @@ import 'package:flutter_application_1/setting/dark_light.dart';
 import 'package:provider/provider.dart';
 
 class CommentSection extends StatefulWidget {
-  final String movieId; // Unique identifier for each movie
+  final String movieId;
 
   const CommentSection({super.key, required this.movieId});
 

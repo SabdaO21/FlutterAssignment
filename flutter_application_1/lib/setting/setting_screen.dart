@@ -11,7 +11,6 @@ class SettingsScreen extends StatelessWidget {
     final themeProvider = Provider.of<ThemeProvider>(context);
     final isDarkMode = themeProvider.isDarkMode;
 
-    // Define light and dark mode colors
     final backgroundColor = isDarkMode ? const Color(0xFF000000) : const Color(0xFFBACAE1);
     final appBarColor = isDarkMode ? const Color(0xFF000000) : const Color(0xFFBACAE1);
     final fontColor = isDarkMode ? const Color(0xFFF0BF4C) : const Color(0xFF2C2C2C);
@@ -36,7 +35,6 @@ class SettingsScreen extends StatelessWidget {
       body: ListView(
         padding: EdgeInsets.symmetric(horizontal: 16, vertical: 20),
         children: [
-          // Dark mode toggle switch
           ListTile(
             title: Text(
               'Dark Mode',

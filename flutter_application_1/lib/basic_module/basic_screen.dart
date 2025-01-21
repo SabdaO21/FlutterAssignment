@@ -86,7 +86,6 @@ class _HomeScreenState extends State<HomeScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // Top Carousel
               SizedBox(
                 height: 200,
                 child: PageView(
@@ -94,7 +93,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   children: [
                     GestureDetector(
                       onTap: () {
-                        // Example navigation on tap
                         Navigator.of(context).push(
                           MaterialPageRoute(
                             builder: (context) => DoctorStrange2(),
@@ -122,7 +120,6 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     GestureDetector(
                       onTap: () {
-                        // Example navigation on tap
                         Navigator.of(context).push(
                           MaterialPageRoute(
                             builder: (context) => MisssionImpossible(),
@@ -136,7 +133,6 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     GestureDetector(
                       onTap: () {
-                        // Example navigation on tap
                         Navigator.of(context).push(
                           MaterialPageRoute(
                             builder: (context) => It2(),
@@ -152,7 +148,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               const SizedBox(height: 16),
-              // Last Watched Section
               Text(
                 "Last watched",
                 style: TextStyle(
@@ -169,7 +164,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   children: [
                     GestureDetector(
                       onTap: () {
-                        // Navigate to the movie screen on tap
                         Navigator.of(context).push(
                           MaterialPageRoute(
                             builder: (context) => DoctorStrange2(),
@@ -185,7 +179,6 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     GestureDetector(
                       onTap: () {
-                        // Navigate to the movie screen on tap
                         Navigator.of(context).push(
                           MaterialPageRoute(
                             builder: (context) => Thor3(),
@@ -201,7 +194,6 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     GestureDetector(
                       onTap: () {
-                        // Navigate to the movie screen on tap
                         Navigator.of(context).push(
                           MaterialPageRoute(
                             builder: (context) => BlackWidow(),
@@ -219,7 +211,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               const SizedBox(height: 16),
-              // Most Popular Section
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -261,7 +252,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 children: [
                   GestureDetector(
                     onTap: () {
-                      // Navigate to the movie screen on tap
                       Navigator.of(context).push(
                         MaterialPageRoute(
                           builder: (context) => AvengersEG(),
@@ -273,7 +263,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   GestureDetector(
                     onTap: () {
-                      // Navigate to the movie screen on tap
                       Navigator.of(context).push(
                         MaterialPageRoute(
                           builder: (context) => Venom(),
@@ -285,7 +274,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   GestureDetector(
                     onTap: () {
-                      // Navigate to the movie screen on tap
                       Navigator.of(context).push(
                         MaterialPageRoute(
                           builder: (context) => Smile2(),
@@ -297,7 +285,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   GestureDetector(
                     onTap: () {
-                      // Navigate to the movie screen on tap
                       Navigator.of(context).push(
                         MaterialPageRoute(
                           builder: (context) => MisssionImpossible(),
@@ -309,7 +296,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   GestureDetector(
                     onTap: () {
-                      // Navigate to the movie screen on tap
                       Navigator.of(context).push(
                         MaterialPageRoute(
                           builder: (context) => Aquaman(),
@@ -321,7 +307,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   GestureDetector(
                     onTap: () {
-                      // Navigate to the movie screen on tap
                       Navigator.of(context).push(
                         MaterialPageRoute(
                           builder: (context) => It2(),
@@ -358,7 +343,7 @@ class _HomeScreenState extends State<HomeScreen> {
         crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
-              height: 100, // Adjust the height as per the requirement
+              height: 100,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(8),
                 image: DecorationImage(

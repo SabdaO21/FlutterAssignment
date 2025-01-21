@@ -86,7 +86,6 @@ class _LoginScreenState extends State<LoginScreen> {
             ElevatedButton(
               onPressed: () {
                 if (emailCtrl.text == 'admin' && passwordCtrl.text == 'admin') {
-                  // Successful login logic
                   ScaffoldMessenger.of(context).showSnackBar(
                     const SnackBar(content: Text('Login Successful')),
                   );
@@ -96,7 +95,6 @@ class _LoginScreenState extends State<LoginScreen> {
                     )
                   );
                 } else {
-                  // Failed login logic
                   ScaffoldMessenger.of(context).showSnackBar(
                     const SnackBar(content: Text('Invalid Email or Password')),
                   );
